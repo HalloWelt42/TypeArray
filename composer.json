@@ -1,0 +1,16 @@
+{
+    "name": "hallowelt42/typearray",
+    "description": "typesafe arrays",
+    "autoload": {
+        "psr-4": {
+            "Hallowelt42\\Typearray\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HalloWelt42",
+            "email": "github@texeln.de"
+        }
+    ],
+    "require": {}
+}
