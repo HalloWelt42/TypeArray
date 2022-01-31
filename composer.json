@@ -3,7 +3,7 @@
     "description": "typesafe arrays",
     "autoload": {
         "psr-4": {
-            "Hallowelt42\\Typearray\\": "src/"
+            "Hallowelt42\\TypeArray\\": "src/"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "email": "github@texeln.de"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.1"
+    }
 }
