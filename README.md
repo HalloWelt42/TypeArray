@@ -16,19 +16,19 @@ Sie gewinnen aber mit der Bibliothek Typsicherheit und starke Typenhinweise (typ
 
 
 ## Beispiel: Typenhinweise in PHPStorm
-Quelle: [Demo](src/demo/PersonManager.php)
+Quelle: [Demo](demo/PersonManager.php)
 
 Hier können sie sehen, wie die typsicheeren Arrays in verscheidenen Situation das Entwickeln unterstützen. 
 
-![](src/demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.13.32.png)
+![](demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.13.32.png)
 
-![](src/demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.14.02.png)
+![](demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.14.02.png)
 
-![](src/demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.12.40.png)
+![](demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.12.40.png)
 
 
 ## Neue Typen anlegen
-Neue Typen deklarieren sie wie folgt (Beispiel: [PersonList](src/demo/PersonList.php)):
+Neue Typen deklarieren sie wie folgt (Beispiel: [PersonList](demo/PersonList.php)):
 ```php
 class PersonList extends ListType
 {

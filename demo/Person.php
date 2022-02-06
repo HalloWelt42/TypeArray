@@ -1,10 +1,10 @@
 <?php
 
-namespace Hallowelt42\TypeArray\demo;
+namespace Hallowelt42\TypeArrayDemo;
 
 
 
-use Hallowelt42\TypeArray\demo\lib\TJsonSerialize_ClassNameWithoutNS;
+use Hallowelt42\TypeArrayDemo\lib\TJsonSerialize_ClassNameWithoutNS;
 use JsonSerializable;
 
 /**

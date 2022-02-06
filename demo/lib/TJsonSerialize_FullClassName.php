@@ -1,6 +1,6 @@
 <?php
 
-namespace Hallowelt42\TypeArray\demo\lib;
+namespace Hallowelt42\TypeArrayDemo\lib;
 
 trait TJsonSerialize_FullClassName
 {

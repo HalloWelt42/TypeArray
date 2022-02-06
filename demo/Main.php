@@ -1,6 +1,6 @@
 <?php
 
-namespace Hallowelt42\TypeArray\demo;
+namespace Hallowelt42\TypeArrayDemo;
 
 class Main
 {
