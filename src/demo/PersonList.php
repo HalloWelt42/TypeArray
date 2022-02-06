@@ -5,9 +5,6 @@ namespace Hallowelt42\TypeArray\demo;
 use Exception;
 use Hallowelt42\TypeArray\ListType;
 
-/**
- *
- */
 class PersonList extends ListType
 {
 
