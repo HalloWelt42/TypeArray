@@ -23,7 +23,7 @@ trait TArrayAccess
      */
     public function offsetGet(mixed $offset): mixed
     {
-        return $this->container[$offset] ?? NULL;
+        return $this->container[$offset] ?? null;
     }
 
     /**
@@ -38,12 +38,12 @@ trait TArrayAccess
      * @param mixed $value
      * @return void
      */
-    public function offsetSet(mixed $offset, mixed $value):void
+    public function offsetSet(mixed $offset, mixed $value): void
     {
         try {
             $this->typeTest($value);
         } catch (Exception $exception) {
-            error_log($exception->getTraceAsString());
+            error_log($exception);
             return;
         }
 
@@ -53,7 +53,6 @@ trait TArrayAccess
             $this->container[$offset] = $value;
         }
     }
-
 
 
     /**
