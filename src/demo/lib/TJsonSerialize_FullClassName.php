@@ -10,6 +10,6 @@ trait TJsonSerialize_FullClassName
         foreach ($this as $key => $val){
             $entities->$key=$val;
         }
-        return [self::class => $entities];
+        return [$this::class => $entities];
     }
 }

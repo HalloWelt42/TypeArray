@@ -12,7 +12,7 @@ trait TJsonSerialize_ClassNameWithoutNS
             $entities->$key = $val;
         }
 
-        $name   = self::class;
+        $name   = $this::class;
         $parts  = explode('\\', $name);
         $rename = $parts[count($parts) - 1];
 
