@@ -17,11 +17,18 @@ class PersonManager
     /**
      * @return void
      */
-    public function printAll():void{
-        foreach ($this->person_list as $person){
+    public function printAll(): void
+    {
+        foreach ($this->person_list as $person) {
             print_r("ID: {$person->getId()} - Name: {$person->getName()}");
             print_r(PHP_EOL);
         }
+    }
+
+
+    public function getJson(): string
+    {
+        return json_encode($this->person_list, JSON_PRETTY_PRINT);
     }
 
 

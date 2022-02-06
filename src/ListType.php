@@ -7,9 +7,10 @@ namespace Hallowelt42\TypeArray;
 use ArrayAccess;
 use Countable;
 use Exception;
+use JsonSerializable;
 use SeekableIterator;
 
-class ListType implements ArrayAccess, SeekableIterator, Countable  /* TODO : Serializable */
+class ListType implements ArrayAccess, SeekableIterator, Countable, JsonSerializable  /* TODO : Serializable */
 {
     use TArrayAccess;
     use TCountable;
@@ -58,4 +59,8 @@ class ListType implements ArrayAccess, SeekableIterator, Countable  /* TODO : Se
         }
     }
 
+    public function jsonSerialize(): array
+    {
+        return $this->container;
+    }
 }

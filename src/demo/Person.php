@@ -3,11 +3,17 @@
 namespace Hallowelt42\TypeArray\demo;
 
 
+
+use Hallowelt42\TypeArray\demo\lib\TJsonSerialize_ClassNameWithoutNS;
+use JsonSerializable;
+
 /**
- * a spmple personal data
+ * a simple personal data
  */
-class Person
+class Person implements JsonSerializable
 {
+    use TJsonSerialize_ClassNameWithoutNS;
+
     private int    $id;
     private string $name;
 
@@ -52,6 +58,5 @@ class Person
         $this->name = $name;
         return $this;
     }
-
 
 }

@@ -32,5 +32,26 @@ class Main
          *
          */
 
+
+        print_r($manager->getJson());
+
+        /**
+         *  [
+         *      {
+         *          "Person": {
+         *              "id": 1,
+         *              "name": "Alice"
+         *         }
+         *      },
+         *      {
+         *          "Person": {
+         *              "id": 2,
+         *              "name": "Bob"
+         *          }
+         *      }
+         *  ]
+         *
+         */
+
     }
 }
