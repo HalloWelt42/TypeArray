@@ -13,6 +13,13 @@ Sie gewinnen aber mit der Bibliothek Typsicherheit und starke Typenhinweise (typ
 
 ## Unterstützte Typen
 * Jedes Objekt einer Klasse
+  * z.B: 
+### einfache Typen (Betastatus)
+* boolean
+* integer
+* double
+* double
+* string
 
 
 ## Beispiel: Typenhinweise in PHPStorm
