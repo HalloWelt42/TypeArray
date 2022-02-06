@@ -3,7 +3,7 @@
 ## Anwendungszweck
 Das TypeArray soll ein Problem typschwacher Arrays unter PHP lösen.
 
-Es kann genutzt werden um sicher zu stellen, dass ein Array vom Typ enes bestimmten Objektes ist.
+Es kann genutzt werden um sicher zu stellen, dass ein Array vom Typ eines bestimmten Objektes ist.
 
 Diese Bibliothek macht Ihr Projekt nicht sehr abhängig, 
 da die Schreibweise, wie Arrays in PHP verwendet werden gleich bleibt. 
@@ -18,7 +18,7 @@ Sie gewinnen aber mit der Bibliothek Typsicherheit und starke Typenhinweise (typ
 ## Beispiel: Typenhinweise in PHPStorm
 Quelle: [Demo](demo/PersonManager.php)
 
-Hier können sie sehen, wie die typsicheeren Arrays in verscheidenen Situation das Entwickeln unterstützen. 
+Hier können sie sehen, wie die typsicheren Arrays in verschiedenen Situation das Entwickeln unterstützen. 
 
 ![](demo/ressources/Bildschirmfoto%202022-02-06%20um%2013.13.32.png)
 
